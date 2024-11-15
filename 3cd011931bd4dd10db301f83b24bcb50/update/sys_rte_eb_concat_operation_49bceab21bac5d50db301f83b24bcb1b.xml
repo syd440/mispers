@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_concat_operation">
+    <sys_rte_eb_concat_operation action="INSERT_OR_UPDATE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        var b = a + " (Now)";
+
+        // setp3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <joining_string/>
+        <name>CONCAT_sn_ihub_target_zip</name>
+        <operation_group/>
+        <order>9999</order>
+        <source_sys_rte_eb_field/>
+        <source_sys_rte_eb_fields>b4bceab21bac5d50db301f83b24bcb08,fcbceab21bac5d50db301f83b24bcb09</source_sys_rte_eb_fields>
+        <sys_class_name>sys_rte_eb_concat_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-11 14:03:28</sys_created_on>
+        <sys_id>49bceab21bac5d50db301f83b24bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CONCAT_sn_ihub_target_zip</sys_name>
+        <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Locations Import_etl_ihub">c1f2aa3a1b6c5d50db301f83b24bcbb8</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_snc_mispers_location_data">f8bcaab21bac5d50db301f83b24bcbff</sys_rte_eb_entity>
+        <sys_scope display_value="MISPERS">3cd011931bd4dd10db301f83b24bcb50</sys_scope>
+        <sys_update_name>sys_rte_eb_concat_operation_49bceab21bac5d50db301f83b24bcb1b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-30 17:47:32</sys_updated_on>
+        <target_sys_rte_eb_field display_value="sn_ihub_target_zip">b4bceab21bac5d50db301f83b24bcb08</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Concatenation">4e38102a73b333002b6265a751ab9e1f</type>
+    </sys_rte_eb_concat_operation>
+</record_update>

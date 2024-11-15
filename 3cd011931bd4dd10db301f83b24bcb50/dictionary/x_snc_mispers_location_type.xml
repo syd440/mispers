@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2d8b63db1b601190db301f83b24bcbf7" label="Location type" max_length="40" name="x_snc_mispers_location_type" text_index="true" type="collection">
+        <element label="Marker" max_length="40" name="marker" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

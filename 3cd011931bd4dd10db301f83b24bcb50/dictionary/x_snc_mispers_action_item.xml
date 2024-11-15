@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="84734b8d1bf59190db301f83b24bcb9a" label="Action item" max_length="40" name="x_snc_mispers_action_item" type="collection">
+        <element label="ID" max_length="40" name="id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medical" sequence="0" value="Medical"/>
+                <element inactive_on_update="false" label="Family Liaison" sequence="0" value="Family Liaison"/>
+                <element inactive_on_update="false" label="Media / Circulations" sequence="0" value="Media / Circulations"/>
+                <element inactive_on_update="false" label="Computers / CCTV" sequence="0" value="Computers / CCTV"/>
+                <element inactive_on_update="false" label="Telephones" sequence="0" value="Telephones"/>
+                <element inactive_on_update="false" label="Intelligence" sequence="0" value="Intelligence"/>
+                <element inactive_on_update="false" label="Address Checks" sequence="0" value="Address Checks"/>
+                <element inactive_on_update="false" label="Supervision and Handover" sequence="0" value="Supervision and Handover"/>
+                <element inactive_on_update="false" label="School / Work" sequence="0" value="School / Work"/>
+                <element inactive_on_update="false" label="Financial" sequence="0" value="Financial"/>
+                <element inactive_on_update="false" label="Searches" sequence="0" value="Searches"/>
+                <element inactive_on_update="false" label="Other Agencies" sequence="0" value="Other Agencies"/>
+            </choice>
+        </element>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="4000" name="notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Suspended" sequence="0" value="Suspended"/>
+                <element inactive_on_update="false" label="Approved" sequence="0" value="Approved"/>
+            </choice>
+        </element>
+        <element label="Case" max_length="32" name="case" reference="x_snc_mispers_case" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Include in summary" max_length="40" name="summary" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Due Date" max_length="40" name="due_date" type="glide_date_time"/>
+        <element label="Report Reference" max_length="40" name="report_reference" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Title" max_length="84" name="title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="69" name="address" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="case"/>
+        </index>
+    </element>
+</database>

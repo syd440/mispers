@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System (apps/system_user)" source="apps/system_user">acfbda1087131110de04eb909bbb353b</dependency>
+        <min_version/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-30 10:47:50</sys_created_on>
+        <sys_id>c4a13e2c87eb9d10de04eb909bbb35f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-30 17:46:59</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="316fccfd1b345990db301f83b24bcb15" label="Case" max_length="40" name="x_snc_mispers_case" text_index="true" type="collection">
+        <element label="Closed" max_length="40" name="closed" type="glide_date_time"/>
+        <element label="Person" max_length="32" name="person" reference="x_snc_mispers_person" type="reference"/>
+        <element label="Reported missing" max_length="40" name="reported_missing" type="glide_date_time"/>
+        <element label="Last seen" max_length="40" name="last_seen" type="glide_date_time"/>
+        <element choice="1" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High - imminent risk of death" sequence="2" value="high"/>
+                <element inactive_on_update="false" label="Medium - risk of harm" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="Low - no risk of harm" sequence="0" value="low"/>
+            </choice>
+        </element>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" sequence="3" value="closed"/>
+                <element inactive_on_update="false" label="Reported" sequence="0" value="reported"/>
+                <element inactive_on_update="false" label="In progress" sequence="2" value="in_progress"/>
+                <element inactive_on_update="false" label="Confirmed" sequence="1" value="confirmed"/>
+            </choice>
+        </element>
+        <element label="Age" max_length="40" name="age" type="string"/>
+        <element label="Location found" max_length="32" name="location_found" reference="x_snc_mispers_location_data" type="reference"/>
+        <element choice="3" label="RAG" max_length="40" name="rag" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Red" sequence="0" value="red"/>
+                <element inactive_on_update="false" label="Green" sequence="2" value="green"/>
+                <element inactive_on_update="false" label="Amber" sequence="1" value="amber"/>
+            </choice>
+        </element>
+        <element choice="1" label="Age range" max_length="40" name="age_range" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Over 20 days" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="10 to 20 days" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="3 to 10 days" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Less than 3 days" sequence="0" value="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Reported by" max_length="40" name="reported_by" type="string"/>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <index name="index">
+            <element name="location_found"/>
+        </index>
+        <index name="index2">
+            <element name="person"/>
+        </index>
+    </element>
+</database>

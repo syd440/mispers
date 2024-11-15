@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8bc155d31bd4dd10db301f83b24bcbd3" label="Person" max_length="40" name="x_snc_mispers_person" text_index="true" type="collection">
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element choice="1" label="Next of kin relationship" max_length="40" name="next_of_kin_relationship" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Other relative" sequence="3" value="other_relative"/>
+                <element inactive_on_update="false" label="Sibling" sequence="2" value="sibling"/>
+                <element inactive_on_update="false" label="Parent" sequence="1" value="parent"/>
+                <element inactive_on_update="false" label="Spouse" sequence="0" value="spouse"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Vulnerable" max_length="40" name="vulnerable" type="boolean"/>
+        <element label="Description" max_length="400" name="description" type="string"/>
+        <element label="Home address" max_length="32" name="home_address" reference="x_snc_mispers_location_data" type="reference"/>
+        <element display="true" label="Full name" max_length="40" name="display_name" type="string"/>
+        <element label="Last name" max_length="40" name="last_name" type="string"/>
+        <element label="First name" max_length="40" name="first_name" type="string"/>
+        <element label="Next of kin" max_length="32" name="next_of_kin" reference="x_snc_mispers_person" type="reference"/>
+        <element label="Date of birth" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element choice="1" label="Gender" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Female" sequence="1" value="female"/>
+                <element inactive_on_update="false" label="Not specified" sequence="2" value="not_specified"/>
+                <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="home_address"/>
+        </index>
+        <index name="index2">
+            <element name="next_of_kin"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_declarative_action_assignment">
+    <sys_declarative_action_assignment action="INSERT_OR_UPDATE">
+        <action/>
+        <action_attributes>{"activityView":"stacked","playbookExperienceId":"a56d8d93ff311010cc0853ea793bf1a6","parentSysId":"{{sysId}}","parentTable":"{{table}}","compactMode":"","recordGeneratorQuery":"","isNewParentRecord":""}</action_attributes>
+        <action_name>mispers_playbook</action_name>
+        <action_payload/>
+        <action_type>type</action_type>
+        <active>true</active>
+        <button_type>primary</button_type>
+        <client_action/>
+        <client_conditions/>
+        <client_conditions_on_fields/>
+        <client_script><![CDATA[function onClick() { }]]></client_script>
+        <confirmation_message/>
+        <confirmation_required>false</confirmation_required>
+        <create_access>false</create_access>
+        <declarative_action_render_mode/>
+        <declarative_action_type>action_component</declarative_action_type>
+        <delete_access>false</delete_access>
+        <dependency/>
+        <description/>
+        <design_icon/>
+        <dynamic_record_condition/>
+        <dynamic_script_condition/>
+        <enable_dynamic_evaluation>false</enable_dynamic_evaluation>
+        <enable_for_all_experiences>false</enable_for_all_experiences>
+        <enabled>true</enabled>
+        <experience_restricted>false</experience_restricted>
+        <field_name/>
+        <field_type>glide_date</field_type>
+        <form_fields_required>false</form_fields_required>
+        <form_position>related_item</form_position>
+        <group/>
+        <group_by>false</group_by>
+        <icon/>
+        <label>MISPERS Playbook</label>
+        <model display_value="Form">360935e9534723003eddddeeff7b127d</model>
+        <model_conditions/>
+        <model_field_required/>
+        <order>100</order>
+        <payload_map/>
+        <read_access>false</read_access>
+        <record_conditions/>
+        <record_selection_required>false</record_selection_required>
+        <required_roles/>
+        <required_translations/>
+        <required_user_role_names/>
+        <requires_value>false</requires_value>
+        <script_condition>sn_playbook.PlaybookExperience.parentRecordContainsPlaybook(current)</script_condition>
+        <scripted_client_condition/>
+        <server_script/>
+        <specificity>11</specificity>
+        <sys_class_name>sys_declarative_action_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 16:36:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c19bbda1b745110ea260e56624bcb7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mispers_playbook</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MISPERS">3cd011931bd4dd10db301f83b24bcb50</sys_scope>
+        <sys_update_name>sys_declarative_action_assignment_7c19bbda1b745110ea260e56624bcb7d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-30 17:47:30</sys_updated_on>
+        <table>x_snc_mispers_case</table>
+        <tooltip>Wibble</tooltip>
+        <ui_component display_value="now-playbook-experience">9d0bc73916d784d8692b89e9553124dc</ui_component>
+        <view/>
+        <workspace/>
+        <write_access>false</write_access>
+    </sys_declarative_action_assignment>
+    <sys_translated_text action="delete_multiple" query="documentkey=7c19bbda1b745110ea260e56624bcb7d"/>
+</record_update>

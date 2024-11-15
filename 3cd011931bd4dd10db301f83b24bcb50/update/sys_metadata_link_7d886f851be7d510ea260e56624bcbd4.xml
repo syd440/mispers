@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>5cef6b131ba01190db301f83b24bcb3f</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_mispers_location_data">
+    <x_snc_mispers_location_data action="INSERT_OR_UPDATE">
+        <city>Leicester</city>
+        <cmn_location_source/>
+        <cmn_location_type/>
+        <company/>
+        <contact/>
+        <coordinates_retrieved_on/>
+        <country>United Kingdom</country>
+        <duplicate>false</duplicate>
+        <fax_phone/>
+        <full_name>Leicestershire Racecourse</full_name>
+        <lat_long_error/>
+        <latitude>52.6032562</latitude>
+        <life_cycle_stage/>
+        <life_cycle_stage_status/>
+        <longitude>-1.0981212</longitude>
+        <managed_by_group/>
+        <name>Leicestershire Racecourse</name>
+        <parent/>
+        <person display_value="John Smith">15fc235f1b601190db301f83b24bcbc2</person>
+        <phone/>
+        <phone_territory/>
+        <primary_location/>
+        <state/>
+        <stock_room>false</stock_room>
+        <street>Leicester Rd,&#13;
+Oadby</street>
+        <sys_class_name>x_snc_mispers_location_data</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-13 08:14:59</sys_created_on>
+        <sys_id>5cef6b131ba01190db301f83b24bcb3f</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-14 17:31:37</sys_updated_on>
+        <time_zone/>
+        <type display_value="Work">fe2d635f1b601190db301f83b24bcb68</type>
+        <zip>LE2 4AL</zip>
+    </x_snc_mispers_location_data>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-02 11:03:50</sys_created_on>
+        <sys_id>7d886f851be7d510ea260e56624bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leicestershire Racecourse</sys_name>
+        <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MISPERS">3cd011931bd4dd10db301f83b24bcb50</sys_scope>
+        <sys_update_name>sys_metadata_link_7d886f851be7d510ea260e56624bcbd4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-02 11:06:19</sys_updated_on>
+        <tablename>x_snc_mispers_location_data</tablename>
+    </sys_metadata_link>
+</record_update>

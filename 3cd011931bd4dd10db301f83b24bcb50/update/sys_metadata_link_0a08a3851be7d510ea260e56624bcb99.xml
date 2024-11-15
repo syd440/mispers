@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>c07e9d0a1bb89990db301f83b24bcbb7</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_mispers_mobile_activity">
+    <x_snc_mispers_mobile_activity action="INSERT_OR_UPDATE">
+        <mast display_value="Elvington Mobile Mast">1fb6fabb1bac5190db301f83b24bcb23</mast>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-21 10:42:22</sys_created_on>
+        <sys_id>c07e9d0a1bb89990db301f83b24bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-21 10:42:22</sys_updated_on>
+        <what>Call</what>
+        <when>2022-07-17 20:33:00</when>
+        <who display_value="Alan Dearing">78b0d9c61b789990db301f83b24bcb50</who>
+    </x_snc_mispers_mobile_activity>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-02 11:01:41</sys_created_on>
+        <sys_id>0a08a3851be7d510ea260e56624bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2022-07-21 11:42:22</sys_name>
+        <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MISPERS">3cd011931bd4dd10db301f83b24bcb50</sys_scope>
+        <sys_update_name>sys_metadata_link_0a08a3851be7d510ea260e56624bcb99</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-02 11:06:16</sys_updated_on>
+        <tablename>x_snc_mispers_mobile_activity</tablename>
+    </sys_metadata_link>
+</record_update>

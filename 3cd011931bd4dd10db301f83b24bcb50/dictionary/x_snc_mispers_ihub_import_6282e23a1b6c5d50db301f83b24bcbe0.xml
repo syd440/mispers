@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8753aebe1ba0d950ea260e56624bcb74" extends="sys_import_set_row" label="Locations Import" max_length="40" name="x_snc_mispers_ihub_import_6282e23a1b6c5d50db301f83b24bcbe0" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Address1" label="Address1" max_length="40" name="u_address1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Address2" label="Address2" max_length="40" name="u_address2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Address3" label="Address3" max_length="40" name="u_address3" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Postcode" label="Postcode" max_length="40" name="u_postcode" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=City" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Country" label="Country" max_length="40" name="u_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Address" label="Address" max_length="40" name="u_address" type="string"/>
+    </element>
+</database>

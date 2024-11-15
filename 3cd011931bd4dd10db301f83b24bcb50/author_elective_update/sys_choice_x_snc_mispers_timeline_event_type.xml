@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="event_type" table="x_snc_mispers_timeline" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>event_type</element>
+            <name>x_snc_mispers_timeline</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-14 16:20:52</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>event_type</sys_name>
+            <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MISPERS">3cd011931bd4dd10db301f83b24bcb50</sys_scope>
+            <sys_update_name>sys_choice_x_snc_mispers_timeline_event_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 17:46:58</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>event_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Last seen</label>
+            <language>en</language>
+            <name>x_snc_mispers_timeline</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-14 16:20:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 17:48:02</sys_updated_on>
+            <value>last_seen</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>event_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reported missing</label>
+            <language>en</language>
+            <name>x_snc_mispers_timeline</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-14 16:20:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 17:48:02</sys_updated_on>
+            <value>reported_missing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>event_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Made contact</label>
+            <language>en</language>
+            <name>x_snc_mispers_timeline</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-14 16:20:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 17:48:02</sys_updated_on>
+            <value>made_contact</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>event_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Possible sighting</label>
+            <language>en</language>
+            <name>x_snc_mispers_timeline</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-20 10:14:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 17:48:02</sys_updated_on>
+            <value>possible_sighting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>event_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Made phone call</label>
+            <language>en</language>
+            <name>x_snc_mispers_timeline</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-20 10:14:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 17:48:03</sys_updated_on>
+            <value>made_phone_call</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>event_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Card purchase</label>
+            <language>en</language>
+            <name>x_snc_mispers_timeline</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-20 10:14:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 17:48:03</sys_updated_on>
+            <value>card_purchase</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>event_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Location search</label>
+            <language>en</language>
+            <name>x_snc_mispers_timeline</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-20 10:14:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 17:48:03</sys_updated_on>
+            <value>location_search</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>event_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Action</label>
+            <language>en</language>
+            <name>x_snc_mispers_timeline</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-20 10:14:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 17:48:03</sys_updated_on>
+            <value>action</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>event_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Review</label>
+            <language>en</language>
+            <name>x_snc_mispers_timeline</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-20 10:14:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 17:48:03</sys_updated_on>
+            <value>review</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

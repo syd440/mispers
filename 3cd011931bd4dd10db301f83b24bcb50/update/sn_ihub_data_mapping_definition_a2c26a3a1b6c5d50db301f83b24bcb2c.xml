@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_data_mapping_definition">
+    <sn_ihub_data_mapping_definition action="INSERT_OR_UPDATE">
+        <integration_table>sys_data_source</integration_table>
+        <published_source_structure display_value="FD687c66b286ac5d50a8d2e2539483322c">e87c66b21bac5d50db301f83b24bcb2c</published_source_structure>
+        <record_id>2282e23a1b6c5d50db301f83b24bcbe2</record_id>
+        <source_structure display_value="FD687c66b286ac5d50a8d2e2539483322c">e87c66b21bac5d50db301f83b24bcb2c</source_structure>
+        <sys_class_name>sn_ihub_data_mapping_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-11 13:20:10</sys_created_on>
+        <sys_id>a2c26a3a1b6c5d50db301f83b24bcb2c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MISPERS">3cd011931bd4dd10db301f83b24bcb50</sys_scope>
+        <sys_update_name>sn_ihub_data_mapping_definition_a2c26a3a1b6c5d50db301f83b24bcb2c</sys_update_name>
+        <sys_updated_by>rawdy.evernden</sys_updated_by>
+        <sys_updated_on>2022-12-05 11:41:59</sys_updated_on>
+    </sn_ihub_data_mapping_definition>
+</record_update>

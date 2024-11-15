@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="5791fa2c87eb9d10de04eb909bbb35a0" extends="task" label="Action" max_length="40" name="x_snc_mispers_action" text_index="true" type="collection">
+        <element label="Include in summary" max_length="40" name="include_in_summary" type="boolean"/>
+        <element label="Case" max_length="32" name="case" reference="x_snc_mispers_case" type="reference"/>
+        <element choice="1" label="Action type" max_length="40" name="action_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Location search" sequence="0" value="location_search"/>
+                <element inactive_on_update="false" label="Review" sequence="1" value="review"/>
+                <element inactive_on_update="false" label="Provide update" sequence="2" value="provide_update"/>
+            </choice>
+        </element>
+    </element>
+</database>

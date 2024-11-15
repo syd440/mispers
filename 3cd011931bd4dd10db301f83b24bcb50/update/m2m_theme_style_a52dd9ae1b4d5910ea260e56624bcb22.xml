@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_theme_style">
+    <m2m_theme_style action="INSERT_OR_UPDATE">
+        <applicability/>
+        <order>0</order>
+        <style display_value="Dark">e09ef7ae07103010e03948f78ad3002c</style>
+        <sys_class_name>m2m_theme_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 10:11:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a52dd9ae1b4d5910ea260e56624bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MISPERS">3cd011931bd4dd10db301f83b24bcb50</sys_scope>
+        <sys_update_name>m2m_theme_style_a52dd9ae1b4d5910ea260e56624bcb22</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-30 17:47:29</sys_updated_on>
+        <theme/>
+    </m2m_theme_style>
+</record_update>

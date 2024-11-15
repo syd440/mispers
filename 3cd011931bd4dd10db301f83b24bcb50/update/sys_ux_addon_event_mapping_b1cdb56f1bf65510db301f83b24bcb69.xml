@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <controller/>
+        <description>List New button to List page's Open Modal</description>
+        <name>list default UXF List New</name>
+        <parent_macroponent display_value="list default">01cd716f1bf65510db301f83b24bcbca</parent_macroponent>
+        <source_component/>
+        <source_da display_value="create-new-uxf">17c13e7273131010a0a79329faf6a794</source_da>
+        <source_element_id>list</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-02 14:55:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b1cdb56f1bf65510db301f83b24bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>list default UXF List New</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MISPERS">3cd011931bd4dd10db301f83b24bcb50</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_b1cdb56f1bf65510db301f83b24bcb69</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-30 17:47:47</sys_updated_on>
+        <target_event display_value="LIST#NAV_ITEM_SELECTED">8c1321d50f1310107d20409dc4767e52</target_event>
+        <target_payload_mapping>{
+  "type": "MAP_CONTAINER",
+  "container": {
+    "route": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "route"
+        ]
+      }
+    },
+    "fields": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "fields"
+        ]
+      }
+    },
+    "multiInstField": "sysId",
+    "params": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "params"
+        ]
+      }
+    },
+    "redirect": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "redirect"
+        ]
+      }
+    },
+    "passiveNavigation": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "passiveNavigation"
+        ]
+      }
+    },
+    "title": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "title"
+        ]
+      }
+    },
+    "external": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "external"
+        ]
+      }
+    }
+  }
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>

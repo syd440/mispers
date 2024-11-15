@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_snc_mispers_case" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Case - Default view" name="x_snc_mispers_case" related_list="NULL" sys_domain="global" view="Default view">4346eed61b305110ea260e56624bcb77</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:8755ce421b7c9990db301f83b24bcb42</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-22 10:34:13</sys_created_on>
+            <sys_id>4b46eed61b305110ea260e56624bcb78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-22 10:34:13</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Case - Default view" name="x_snc_mispers_case" related_list="NULL" sys_domain="global" view="Default view">4346eed61b305110ea260e56624bcb77</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:36a546821b7c9990db301f83b24bcbcd</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-22 10:34:13</sys_created_on>
+            <sys_id>8346eed61b305110ea260e56624bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-22 10:34:13</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Case - Default view" name="x_snc_mispers_case" related_list="NULL" sys_domain="global" view="Default view">4346eed61b305110ea260e56624bcb77</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>REL:10268e821b7c9990db301f83b24bcb6c</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-22 10:34:13</sys_created_on>
+            <sys_id>8746eed61b305110ea260e56624bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-22 10:34:13</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Case - Default view" name="x_snc_mispers_case" related_list="NULL" sys_domain="global" view="Default view">4346eed61b305110ea260e56624bcb77</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>REL:f0e54a821b7c9990db301f83b24bcbc7</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-22 10:34:13</sys_created_on>
+            <sys_id>8b46eed61b305110ea260e56624bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-22 10:34:13</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Case - Default view" name="x_snc_mispers_case" related_list="NULL" sys_domain="global" view="Default view">4346eed61b305110ea260e56624bcb77</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>x_snc_mispers_timeline.case</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-22 10:34:13</sys_created_on>
+            <sys_id>8f46eed61b305110ea260e56624bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-22 10:34:13</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Case - Default view" name="x_snc_mispers_case" related_list="NULL" sys_domain="global" view="Default view">4346eed61b305110ea260e56624bcb77</list_id>
+            <order_by/>
+            <position>5</position>
+            <related_list>x_snc_mispers_action.case</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-22 10:34:13</sys_created_on>
+            <sys_id>8346eed61b305110ea260e56624bcb7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-22 10:34:13</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Case - Default view" name="x_snc_mispers_case" related_list="NULL" sys_domain="global" view="Default view">4346eed61b305110ea260e56624bcb77</list_id>
+            <order_by/>
+            <position>6</position>
+            <related_list>REL:e2f56ad61b305110ea260e56624bcb45</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-22 10:34:13</sys_created_on>
+            <sys_id>8746eed61b305110ea260e56624bcb7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-22 10:34:13</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Case - Default view</calculated_name>
+            <filter/>
+            <name>x_snc_mispers_case</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-22 10:34:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4346eed61b305110ea260e56624bcb77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Case - Default view</sys_name>
+            <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MISPERS">3cd011931bd4dd10db301f83b24bcb50</sys_scope>
+            <sys_update_name>sys_ui_related_x_snc_mispers_case_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 17:47:44</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

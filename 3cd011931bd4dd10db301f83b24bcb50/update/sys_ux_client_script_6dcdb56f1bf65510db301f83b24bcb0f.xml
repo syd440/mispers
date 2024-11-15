@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="list default">01cd716f1bf65510db301f83b24bcbca</macroponent>
+        <name>Refresh List</name>
+        <preset/>
+        <required_translations/>
+        <script><![CDATA[function handler({api, event: {payload, payload: {name, value}}, helpers, imports}) {
+    if (name === 'activityLogs' && value && value.size > 0) {
+        const operationList = ['modified', 'updated', 'inserted', 'deleted', 'closed'];
+        // Transform "value" and get the latest entry
+        const map = Array.from(value).pop()[1];
+        const crudActivitiesLen = map.activities.get('crud').length;
+        if (crudActivitiesLen < 1)
+          return;
+        const {operation, sysId, timestamp} = map.activities.get('crud')[crudActivitiesLen - 1];
+        if (operationList.includes(operation) && sysId !== "-1") {
+            api.setState('listRefresh', {timestamp, background: true });
+        }         
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-02 14:55:08</sys_created_on>
+        <sys_id>6dcdb56f1bf65510db301f83b24bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refresh List</sys_name>
+        <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MISPERS">3cd011931bd4dd10db301f83b24bcb50</sys_scope>
+        <sys_update_name>sys_ux_client_script_6dcdb56f1bf65510db301f83b24bcb0f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-30 17:47:49</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

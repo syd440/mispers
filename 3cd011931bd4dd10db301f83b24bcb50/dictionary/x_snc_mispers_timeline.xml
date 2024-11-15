@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9c786afb1b6c5190db301f83b24bcb28" label="Timeline" max_length="40" name="x_snc_mispers_timeline" text_index="true" type="collection">
+        <element label="Case" max_length="32" name="case" reference="x_snc_mispers_case" type="reference"/>
+        <element label="Event date" max_length="40" name="event_date" type="glide_date_time"/>
+        <element choice="1" label="Event type" max_length="40" name="event_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Last seen" sequence="0" value="last_seen"/>
+                <element inactive_on_update="false" label="Location search" sequence="6" value="location_search"/>
+                <element inactive_on_update="false" label="Made phone call" sequence="4" value="made_phone_call"/>
+                <element inactive_on_update="false" label="Card purchase" sequence="5" value="card_purchase"/>
+                <element inactive_on_update="false" label="Possible sighting" sequence="3" value="possible_sighting"/>
+                <element inactive_on_update="false" label="Review" sequence="8" value="review"/>
+                <element inactive_on_update="false" label="Made contact" sequence="2" value="made_contact"/>
+                <element inactive_on_update="false" label="Action" sequence="7" value="action"/>
+                <element inactive_on_update="false" label="Reported missing" sequence="1" value="reported_missing"/>
+            </choice>
+        </element>
+        <element label="Location" max_length="32" name="location" reference="x_snc_mispers_location_data" type="reference"/>
+        <index name="index">
+            <element name="case"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+    </element>
+</database>

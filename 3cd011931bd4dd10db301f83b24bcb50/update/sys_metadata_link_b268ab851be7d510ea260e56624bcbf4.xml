@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>57375f9b1b7c1510ea260e56624bcb80</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_mispers_social_media_activity">
+    <x_snc_mispers_social_media_activity action="INSERT_OR_UPDATE">
+        <activity>No recent activity found.  Last activity 02/01/2022.</activity>
+        <logo>8848dbdb1b7c1510ea260e56624bcbd5</logo>
+        <platform>Twitter</platform>
+        <reviewed>2022-07-18 16:42:02</reviewed>
+        <reviewed_by>Beth Anglin</reviewed_by>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-25 16:42:48</sys_created_on>
+        <sys_id>57375f9b1b7c1510ea260e56624bcb80</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-16 13:35:15</sys_updated_on>
+    </x_snc_mispers_social_media_activity>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#99cc</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>logo</file_name>
+        <hash>adbfc22c712b9a748850f6c12e2fbacc6f5bc7ca898d2ebeb01e19e604b927ec</hash>
+        <image_height>23</image_height>
+        <image_width>22</image_width>
+        <size_bytes>900</size_bytes>
+        <size_compressed>908</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-25 16:46:23</sys_created_on>
+        <sys_id>8848dbdb1b7c1510ea260e56624bcbd5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-25 16:46:23</sys_updated_on>
+        <table_name>ZZ_YYx_snc_mispers_social_media_activity</table_name>
+        <table_sys_id>57375f9b1b7c1510ea260e56624bcb80</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="logo" sys_id="8848dbdb1b7c1510ea260e56624bcbd5">8848dbdb1b7c1510ea260e56624bcbd5</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-25 16:46:23</sys_created_on>
+        <sys_id>c848dbdb1b7c1510ea260e56624bcbd5</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLSYkAszsEMJC3M/NcAKcbiIHcnhnXnZF4COSzpjr6ODAwb+7n/JLIC5ToDfEJcgeIMaTMZGvYzNGxjqNrIULWHoXUjQ+sehoZdDNWbGWp2M9TsZGjYy1C7i6FuN0PtThBZB5Tdw1APRhAuiNwN4jbsA7N3MZRtZ6jcwVC5k6FqJ0M1EO1iqNkFMqQWLAvRVb+XoX4fSEvDAYaGgwyN+xkaDzA0HWRoOsTQDESHGWt3MdbvZqrdzVS3m7luN3vTXvb2oxxNe7lb9vG27BPuOCDdfUimB4gOy/Yelus9rDLhqNrEo1qTj2lPOaY79bje1OMG004YTj9hNP2EycyTpjNPWsw6ZTX7lM2c03bzztjPOmU/74zzgrM+Sy7Err0Sv+5KwvqrOVtvFO+42XH4/sTjj6aefDT99OMZpx/PBKIzj2efeTL77JO5557OO/d0PhCdf7r11uttt95sv/Vmx603hx++P/nk46knH++///b0049XX36++vLr9ddfb779+vTjz+eff778+vP919/vv//+/ANE/379+ff7z78/f//9/QcC////N1wYpQ+MC9mSIL9gBlYOPnEgkJIOSs4om7dhw6ZN20+eunL1xuPHX/4oGYUBY4+Bs8AjspiBge8wCDMez1+RAozSaE8XxxCN4NyL4eGHHARYH2xV1mpKcOTcFHmoYWPLDeuurhtH71Ufvlc9O/7dE5V28T39929utq5un7lx6q49dvO3L7qS1jjxzqao2G4GF5O923SuO6UVu4duWOR29+gysapFi2K3SSzYuunEBZn0Lf8/FHVGe707o6h38VW4wHorUW/FNVMNpoVflolws3l9wsDk+hPDam6H67fSYjjOib77zv1JzLr4BcPe5M4IAzvji3Z791l59L/mC1vLJF//12bCNvv32+4J5C+zWBG6Ro/H5mf38kt2syyzgw+V6rAcuV+h81Zpnn5OzYO3DQ0TKm89+e7pGfPY2edC5uO87vntTxNuJeyarXayIIZvnrTP5At3In2KL+tXfmL3X2Jbo7jvwPEI5r+TrCZOjq9QeftAuFDqfbvUSuGsDVvz7Uy13MSe7xL1WJJWfaqXLXKf+3NGRqWEEm32WTasbWm56pvP/S/33Gj23sj8/A35Y23xx93ZqxNAOcbT1c9lnVNCEwCBDs7whAMAAA==</data>
+        <length>1200</length>
+        <position>1</position>
+        <sys_attachment display_value="logo" sys_id="8848dbdb1b7c1510ea260e56624bcbd5">8848dbdb1b7c1510ea260e56624bcbd5</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-25 16:46:23</sys_created_on>
+        <sys_id>4c48dbdb1b7c1510ea260e56624bcbd5</sys_id>
+    </sys_attachment_doc>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-02 11:03:22</sys_created_on>
+        <sys_id>b268ab851be7d510ea260e56624bcbf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Twitter</sys_name>
+        <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MISPERS">3cd011931bd4dd10db301f83b24bcb50</sys_scope>
+        <sys_update_name>sys_metadata_link_b268ab851be7d510ea260e56624bcbf4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-02 11:06:19</sys_updated_on>
+        <tablename>x_snc_mispers_social_media_activity</tablename>
+    </sys_metadata_link>
+</record_update>

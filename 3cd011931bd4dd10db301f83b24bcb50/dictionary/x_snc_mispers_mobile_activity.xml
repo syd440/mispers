@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4c6d59c61bb89990db301f83b24bcbf2" label="Mobile activity" max_length="40" name="x_snc_mispers_mobile_activity" text_index="true" type="collection">
+        <element label="Mast" max_length="32" name="mast" reference="x_snc_mispers_location_data" type="reference"/>
+        <element label="What" max_length="40" name="what" type="string"/>
+        <element label="When" max_length="40" name="when" type="glide_date_time"/>
+        <element label="Who" max_length="32" name="who" reference="x_snc_mispers_person" type="reference"/>
+        <index name="index">
+            <element name="mast"/>
+        </index>
+        <index name="index2">
+            <element name="who"/>
+        </index>
+    </element>
+</database>

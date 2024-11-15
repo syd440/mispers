@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Audience for app mispers">f24dd3d387ebd550de04eb909bbb35cf</applicability>
+        <list display_value="Open">8aac51fd1b785990db301f83b24bcbef</list>
+        <order>0</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-28 12:08:50</sys_created_on>
+        <sys_id>5a1247c0937721109fe131947aba1035</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MISPERS">3cd011931bd4dd10db301f83b24bcb50</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_5a1247c0937721109fe131947aba1035</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-28 12:08:50</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+</record_update>

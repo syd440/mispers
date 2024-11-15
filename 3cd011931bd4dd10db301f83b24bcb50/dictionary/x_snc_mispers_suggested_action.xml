@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1c31527c1b159110ea260e56624bcbc2" label="Suggested action" max_length="40" name="x_snc_mispers_suggested_action" type="collection">
+        <element label="Order" max_length="40" name="order" type="integer"/>
+        <element label="Rationale" max_length="400" name="rationale" type="string"/>
+        <element label="Suggested action" max_length="400" name="suggested_action" type="string"/>
+    </element>
+</database>

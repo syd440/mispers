@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="rag" table="x_snc_mispers_case" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>rag</element>
+            <name>x_snc_mispers_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-20 10:25:28</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>rag</sys_name>
+            <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MISPERS">3cd011931bd4dd10db301f83b24bcb50</sys_scope>
+            <sys_update_name>sys_choice_x_snc_mispers_case_rag</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 17:46:57</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Red</label>
+            <language>en</language>
+            <name>x_snc_mispers_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-20 10:25:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 17:48:02</sys_updated_on>
+            <value>red</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Amber</label>
+            <language>en</language>
+            <name>x_snc_mispers_case</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-20 10:25:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 17:48:02</sys_updated_on>
+            <value>amber</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Green</label>
+            <language>en</language>
+            <name>x_snc_mispers_case</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-20 10:25:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 17:48:02</sys_updated_on>
+            <value>green</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

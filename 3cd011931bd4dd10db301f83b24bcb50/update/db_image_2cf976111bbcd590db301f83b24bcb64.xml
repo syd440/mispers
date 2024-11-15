@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>16</height>
+        <image>b90ab6111bbcd590db301f83b24bcb8d</image>
+        <name>RAG-green-16.png</name>
+        <size_bytes>386</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-19 09:26:24</sys_created_on>
+        <sys_id>2cf976111bbcd590db301f83b24bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RAG-green-16.png</sys_name>
+        <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MISPERS">3cd011931bd4dd10db301f83b24bcb50</sys_scope>
+        <sys_update_name>db_image_2cf976111bbcd590db301f83b24bcb64</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-30 17:47:21</sys_updated_on>
+        <thumbnail/>
+        <width>16</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#9966</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <hash>b18561d60d96e6164937320f605a2ee6fb794007246147937b55dece89085190</hash>
+        <image_height>16</image_height>
+        <image_width>16</image_width>
+        <size_bytes>386</size_bytes>
+        <size_compressed>372</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-19 09:26:29</sys_created_on>
+        <sys_id>b90ab6111bbcd590db301f83b24bcb8d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-19 09:26:30</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>2cf976111bbcd590db301f83b24bcb64</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="b90ab6111bbcd590db301f83b24bcb8d">b90ab6111bbcd590db301f83b24bcb8d</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-19 09:26:29</sys_created_on>
+        <sys_id>f90ab6111bbcd590db301f83b24bcb8d</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLSAiDMwQwkNXT5g4EUY3GQuxPDunMyL4EclnRHX0cGho393H8SWYH85ACfEFcgzXAslGGRG8OWQIb1AQybAxnWBTJsArL9GDYHgUSAaEMAw0YgGciwwR/EBpIbwYJAZRsDoSREDZANNAGocVsww/Zghh1AFOL+5nso0BaJkiC/YAZObh0DS5vunsnT5u65cPH27Y8fP339/uPn+WsnQc7mLPCILGZgMDoAwowaKVG3gYItni6OIRrBqf2RfC0GPM5n903Zq+O7oPX3/EnbQpTd9ujfnjhJom+NnNrNziPSClrXuzv59k6Z+LkwOaLyhslGXi7n/vAuH8YlxTOsK04rlhjM2+y0m/3tQ7lP2w86Kh/777Co/m1IVn7gXMfqLQ779p4/9/L7xvevt91ZxK+079ryOaqCc+e0WTE3SD8wF5oqYa7rAgovT1c/l3VOCU0A5ZeKtoIBAAA=</data>
+        <length>484</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="b90ab6111bbcd590db301f83b24bcb8d">b90ab6111bbcd590db301f83b24bcb8d</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-19 09:26:29</sys_created_on>
+        <sys_id>7d0ab6111bbcd590db301f83b24bcb8d</sys_id>
+    </sys_attachment_doc>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <last_registered_on>2024-01-26 15:20:35</last_registered_on>
+        <send_badge_count>false</send_badge_count>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-16 12:47:10</sys_created_on>
+        <sys_id>c50cdf8993f739109fe131947aba1085</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>35A3C1BF09D77FDA0CE12C36B92DEA20CCAE5043E29914537F886CAC7FA7976E</sys_name>
+        <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Request Application">ac7f61d273122300d63a566a4cf6a78b</sys_push_application_id>
+        <sys_push_platform_id display_value="Apple">20e71f30ff0002009738ffffffffff6b</sys_push_platform_id>
+        <sys_scope display_value="MISPERS">3cd011931bd4dd10db301f83b24bcb50</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_c50cdf8993f739109fe131947aba1085</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-26 15:21:10</sys_updated_on>
+        <sys_user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</sys_user_id>
+        <token>35A3C1BF09D77FDA0CE12C36B92DEA20CCAE5043E29914537F886CAC7FA7976E</token>
+    </sys_push_notif_app_install>
+</record_update>

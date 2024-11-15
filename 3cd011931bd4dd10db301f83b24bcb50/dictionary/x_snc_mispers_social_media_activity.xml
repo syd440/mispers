@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1945971b1b7c1510ea260e56624bcb44" label="Social Media Activity" max_length="40" name="x_snc_mispers_social_media_activity" type="collection">
+        <element label="Activity" max_length="400" name="activity" type="string"/>
+        <element label="Reviewed by" max_length="40" name="reviewed_by" type="string"/>
+        <element label="Platform" max_length="40" name="logo" type="user_image"/>
+        <element display="true" label="Platform name" max_length="40" name="platform" type="string"/>
+        <element label="Reviewed" max_length="40" name="reviewed" type="glide_date_time"/>
+    </element>
+</database>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>cd738b8d1bf59190db301f83b24bcbb6</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_mispers_action_item">
+    <x_snc_mispers_action_item action="INSERT_OR_UPDATE">
+        <address>McDonalds, 6-10 East Gates, LE3 5FB, Home Phone: 0116 251 5137</address>
+        <assigned_to display_value="James Luxford">6816f79cc0a8016401c5a33be04be441</assigned_to>
+        <case display_value="MISPERS0001002">6a009c311b745990db301f83b24bcb9a</case>
+        <due_date>2023-08-18 07:58:00</due_date>
+        <id>2766217</id>
+        <notes>Financial Enquiry completed revealed the following
+
+Current balance £811.00 dr £1,000 limit
+
+Nothing of note - asked for enquiries from todays date back for the last couple of days until approx 15/08 - no hotel style transactions
+
+16/08/2022 1837 - 1.88 - McDonalds East Gates
+15/08/2022 1256 - 1.88 - McDonalds East Gates
+15/08/2022 1333 - 2.50 - Poundland Leicester (assuming Gallowtree Gate)
+15/08/2022 1235 - 3.50 - Tesco - 6300 - as per google - Tesco Express Welford Place, Leicester
+
+As per DI Review - Please attend McDonalds on East Gate weekdays (commencing 18/08 between 12:00 &amp; 18:00) - ensure staff are aware of description of Misper and that staff are aware Police will be nearby should he attend.</notes>
+        <number>ACTION0001002</number>
+        <report_reference>38</report_reference>
+        <start_date>2022-08-18 07:58:00</start_date>
+        <status>Suspended</status>
+        <summary>false</summary>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 08:31:58</sys_created_on>
+        <sys_id>cd738b8d1bf59190db301f83b24bcbb6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-06 10:59:47</sys_updated_on>
+        <title>*MPT TASK* Financial Enquiries</title>
+        <type>Financial</type>
+    </x_snc_mispers_action_item>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-02 11:04:10</sys_created_on>
+        <sys_id>2e98ef851be7d510ea260e56624bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>*MPT TASK* Financial Enquiries</sys_name>
+        <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MISPERS">3cd011931bd4dd10db301f83b24bcb50</sys_scope>
+        <sys_update_name>sys_metadata_link_2e98ef851be7d510ea260e56624bcb6a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-02 11:06:17</sys_updated_on>
+        <tablename>x_snc_mispers_action_item</tablename>
+    </sys_metadata_link>
+</record_update>

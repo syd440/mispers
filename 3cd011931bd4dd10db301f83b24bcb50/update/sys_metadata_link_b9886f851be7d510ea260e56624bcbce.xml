@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>24955f641be15150db301f83b24bcb38</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_mispers_location_data">
+    <x_snc_mispers_location_data action="INSERT_OR_UPDATE">
+        <city/>
+        <cmn_location_source/>
+        <cmn_location_type/>
+        <company/>
+        <contact/>
+        <coordinates_retrieved_on/>
+        <country/>
+        <duplicate>false</duplicate>
+        <fax_phone/>
+        <full_name>PC Smith</full_name>
+        <lat_long_error/>
+        <latitude>52.636492</latitude>
+        <life_cycle_stage/>
+        <life_cycle_stage_status/>
+        <longitude>-1.106663</longitude>
+        <managed_by_group/>
+        <name>PC Smith</name>
+        <parent/>
+        <person/>
+        <phone/>
+        <phone_territory/>
+        <primary_location/>
+        <state/>
+        <stock_room>false</stock_room>
+        <street/>
+        <sys_class_name>x_snc_mispers_location_data</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 10:19:06</sys_created_on>
+        <sys_id>24955f641be15150db301f83b24bcb38</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 10:20:28</sys_updated_on>
+        <time_zone/>
+        <type display_value="Officer on foot">c474652b1b681190db301f83b24bcb89</type>
+        <zip/>
+    </x_snc_mispers_location_data>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-02 11:03:50</sys_created_on>
+        <sys_id>b9886f851be7d510ea260e56624bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PC Smith</sys_name>
+        <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MISPERS">3cd011931bd4dd10db301f83b24bcb50</sys_scope>
+        <sys_update_name>sys_metadata_link_b9886f851be7d510ea260e56624bcbce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-02 11:06:19</sys_updated_on>
+        <tablename>x_snc_mispers_location_data</tablename>
+    </sys_metadata_link>
+</record_update>

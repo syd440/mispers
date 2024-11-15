@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD687c66b286ac5d50a8d2e2539483322c</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3cd011931bd4dd10db301f83b24bcb50</scope_name>
+        <serialized_content>{"FlowDesigner:FD687c66b286ac5d50a8d2e2539483322c":{"u_address1":"String","u_address1.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Address1\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_address3":"String","u_address3.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Address3\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_address2":"String","u_address2.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Address2\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_postcode":"String","u_postcode.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Postcode\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}},"FlowDesigner:FD687c66b286ac5d50a8d2e2539483322c.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"object\",\"co_type_name\":\"FD687c66b286ac5d50a8d2e2539483322c\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Excel Header\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-11 14:02:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e87c66b21bac5d50db301f83b24bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD687c66b286ac5d50a8d2e2539483322c</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MISPERS">3cd011931bd4dd10db301f83b24bcb50</sys_scope>
+        <sys_update_name>sys_complex_object_e87c66b21bac5d50db301f83b24bcb2c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-30 17:47:29</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

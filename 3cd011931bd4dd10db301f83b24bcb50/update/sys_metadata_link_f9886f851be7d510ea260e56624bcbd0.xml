@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>3c5de75f1b601190db301f83b24bcbd2</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_mispers_location_data">
+    <x_snc_mispers_location_data action="INSERT_OR_UPDATE">
+        <city>Leicester</city>
+        <cmn_location_source/>
+        <cmn_location_type/>
+        <company/>
+        <contact/>
+        <coordinates_retrieved_on/>
+        <country>United Kingdom</country>
+        <duplicate>false</duplicate>
+        <fax_phone/>
+        <full_name>54 Grove Road</full_name>
+        <lat_long_error/>
+        <latitude>52.6381143</latitude>
+        <life_cycle_stage/>
+        <life_cycle_stage_status/>
+        <longitude>-1.1112043</longitude>
+        <managed_by_group/>
+        <name>54 Grove Road</name>
+        <parent/>
+        <person display_value="John Smith">15fc235f1b601190db301f83b24bcbc2</person>
+        <phone/>
+        <phone_territory/>
+        <primary_location/>
+        <state>Leicestershire</state>
+        <stock_room>false</stock_room>
+        <street>54 Grove Road</street>
+        <sys_class_name>x_snc_mispers_location_data</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-13 08:04:44</sys_created_on>
+        <sys_id>3c5de75f1b601190db301f83b24bcbd2</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-21 09:35:01</sys_updated_on>
+        <time_zone/>
+        <type display_value="Home">030da35f1b601190db301f83b24bcbd1</type>
+        <zip>LE5 3HG</zip>
+    </x_snc_mispers_location_data>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-02 11:03:50</sys_created_on>
+        <sys_id>f9886f851be7d510ea260e56624bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>54 Grove Road</sys_name>
+        <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MISPERS">3cd011931bd4dd10db301f83b24bcb50</sys_scope>
+        <sys_update_name>sys_metadata_link_f9886f851be7d510ea260e56624bcbd0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-02 11:06:20</sys_updated_on>
+        <tablename>x_snc_mispers_location_data</tablename>
+    </sys_metadata_link>
+</record_update>

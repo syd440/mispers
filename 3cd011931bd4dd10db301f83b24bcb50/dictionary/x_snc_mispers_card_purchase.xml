@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="375316fc1b159110ea260e56624bcb00" label="Card purchase" max_length="40" name="x_snc_mispers_card_purchase" type="collection">
+        <element label="Amount" max_length="40" name="amount" type="currency"/>
+        <element label="Date" max_length="40" name="date" type="glide_date_time"/>
+        <element label="Location" max_length="32" name="location" reference="x_snc_mispers_location_data" type="reference"/>
+        <index name="index">
+            <element name="location"/>
+        </index>
+    </element>
+</database>

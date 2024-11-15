@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="eb81590a1b789990db301f83b24bcbd8" label="Associate" max_length="40" name="x_snc_mispers_associate" text_index="true" type="collection">
+        <element label="Relationship" max_length="40" name="relationship" type="string"/>
+        <element label="Person" max_length="32" name="person" reference="x_snc_mispers_person" type="reference"/>
+        <element label="Associate" max_length="32" name="associate" reference="x_snc_mispers_person" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="associate"/>
+        </index>
+        <index name="index2">
+            <element name="person"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>c5738b8d1bf59190db301f83b24bcbc7</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_mispers_action_item">
+    <x_snc_mispers_action_item action="INSERT_OR_UPDATE">
+        <address/>
+        <assigned_to display_value="Francis Soo">86826bf03710200044e0bfc8bcbe5d82</assigned_to>
+        <case display_value="MISPERS0001002">6a009c311b745990db301f83b24bcb9a</case>
+        <due_date>2023-08-16 12:08:00</due_date>
+        <id>2765155</id>
+        <notes>As per DI HEALY's review:
+
+I note SIMPSON does talk about death and 'the end' in his journal. He doesn’t make any explicit statements intent to kill himself - in fact he actually says the opposite at times, but he does seem ambivalent if he lives or dies. I would welcome a professional opinion on this document. Can we please get a psychologist to look at it an offer opinion if it is indicative of mental illness. They may see something in it that we cant. Perhaps try MH01 to see if they have a contact we can make use of?
+
+MH01 office - 0116 258 3538</notes>
+        <number>ACTION0001005</number>
+        <report_reference>36</report_reference>
+        <start_date>2022-08-16 12:08:00</start_date>
+        <status>Suspended</status>
+        <summary>false</summary>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 08:31:58</sys_created_on>
+        <sys_id>c5738b8d1bf59190db301f83b24bcbc7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-06 10:59:47</sys_updated_on>
+        <title>Contact MH01 and discuss with a MH Nurse the journal notes.</title>
+        <type>Other Agencies</type>
+    </x_snc_mispers_action_item>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-02 11:04:09</sys_created_on>
+        <sys_id>5698ef851be7d510ea260e56624bcb50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Contact MH01 and discuss with a MH Nurse the journal notes.</sys_name>
+        <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MISPERS">3cd011931bd4dd10db301f83b24bcb50</sys_scope>
+        <sys_update_name>sys_metadata_link_5698ef851be7d510ea260e56624bcb50</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-02 11:06:18</sys_updated_on>
+        <tablename>x_snc_mispers_action_item</tablename>
+    </sys_metadata_link>
+</record_update>

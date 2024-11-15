@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_integration_instance">
+    <sn_ihub_integration_instance action="INSERT_OR_UPDATE">
+        <description>Import addresses</description>
+        <integration_table>sys_data_source</integration_table>
+        <integration_type>data_import</integration_type>
+        <internal_name/>
+        <name>Locations Import</name>
+        <record_id>2282e23a1b6c5d50db301f83b24bcbe2</record_id>
+        <sys_class_name>sn_ihub_integration_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-11 13:19:04</sys_created_on>
+        <sys_id>6282e23a1b6c5d50db301f83b24bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Locations Import</sys_name>
+        <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MISPERS">3cd011931bd4dd10db301f83b24bcb50</sys_scope>
+        <sys_update_name>sn_ihub_integration_instance_6282e23a1b6c5d50db301f83b24bcbe0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-30 17:47:29</sys_updated_on>
+    </sn_ihub_integration_instance>
+</record_update>

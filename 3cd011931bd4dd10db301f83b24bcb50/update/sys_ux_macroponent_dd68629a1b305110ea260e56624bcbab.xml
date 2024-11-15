@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "field_service_google_map_1",
+  "elementLabel" : "Field service Google map 1",
+  "propertyValues" : {
+    "mapSettings" : {
+      "type" : "JSON_LITERAL",
+      "value" : {
+        "mapOptions" : {
+          "styles" : ""
+        },
+        "autoComplete" : true,
+        "autoCompleteFields" : [ "address_components", "geometry" ],
+        "autoCompleteTypes" : [ "address" ]
+      }
+    },
+    "googleKey" : {
+      "type" : "JSON_LITERAL",
+      "value" : {
+        "client" : "gme-servicenow",
+        "key" : "AIzaSyB7IibRL5sj0yjKxEfY6_volIBkSKIYmK4",
+        "method" : "key"
+      }
+    },
+    "selectedRecordId" : {
+      "type" : "JSON_LITERAL",
+      "value" : "ff969201d7b3020058c92cf65e61036d"
+    },
+    "mapDisplaySettings" : {
+      "type" : "JSON_LITERAL",
+      "value" : [ ]
+    },
+    "mapMarkers" : {
+      "type" : "JSON_LITERAL",
+      "value" : [ ]
+    },
+    "routeMarkers" : {
+      "type" : "JSON_LITERAL",
+      "value" : [ ]
+    },
+    "activeRoutes" : {
+      "type" : "JSON_LITERAL",
+      "value" : [ ]
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "97ee7fccf2d75f616fbd491bc81484ef",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "height" : "500px",
+    "width" : "100%"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"element_id":"field_service_google_map_1","styles":{}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"flex-direction":"column"},
+    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+    "type" : "flex"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>FSM</name>
+        <output_prop_mapping/>
+        <props>[ ]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 10:43:22</sys_created_on>
+        <sys_id>dd68629a1b305110ea260e56624bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FSM</sys_name>
+        <sys_package display_value="MISPERS" source="x_snc_mispers">3cd011931bd4dd10db301f83b24bcb50</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MISPERS">3cd011931bd4dd10db301f83b24bcb50</sys_scope>
+        <sys_update_name>sys_ux_macroponent_dd68629a1b305110ea260e56624bcbab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-30 17:47:53</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=dd68629a1b305110ea260e56624bcbab"/>
+</record_update>
